@@ -1,9 +1,18 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
 
+var ClockComponent = require('./TimeComponent');
+
 class ClockComponent extends React.Component {
   render() {
-    return <h1>Heloooooooo me</h1>;
+    return (
+      <div>
+        <h1>Currently the time is</h1>;
+        <ClockComponent></ClockComponent>
+      </div>
+
+    )
+
   }
 }
 
