@@ -1,3 +1,8 @@
-
+#clock {
+  text-align: center;
+  margin-top: 50px; }
+  #clock span {
+    font-size: 2em;
+    font-weight: bold; }
 
 /*# sourceMappingURL=final.css.map */
