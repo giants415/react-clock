@@ -1,5 +1,6 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
+require('./style/final.css');
 
 var TimeComponent = require('./TimeComponent');
 
