@@ -18,7 +18,11 @@ class TimeComponent extends React.Component {
 
   render(){
     return(
-      <span>{this.state.date.toLocaleTimeString()}</span>
+      <div>
+        <span>{this.state.date.toLocaleDateString()}</span>
+        <br />
+        <span>{this.state.date.toLocaleTimeString()}</span>
+      </div>
     );
   }
 
