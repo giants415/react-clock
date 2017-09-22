@@ -8,7 +8,7 @@ class ClockComponent extends React.Component {
   render() {
     return (
       <div>
-        <h1>Currently the time is</h1>
+        <h1>Current Date and Time</h1>
         <TimeComponent></TimeComponent>
       </div>
     );
